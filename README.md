@@ -1,2 +1,4 @@
-gulp watchでpostCssを自動でコンパイルgit # postCssWatch
-add README.md# post-css-test
+gulp watchでpostCssを自動でコンパイル
+
+gulp watch
+

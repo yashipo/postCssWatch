@@ -36,6 +36,17 @@ text-decoration: none;
   }
 }
 
-.test {
-  display: block;
+.flexBox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 500px;
+  height: 500px;
+  margin: auto;
+  background-color: #333;
+  & p {
+    padding: 10px;
+    background-color: #000;
+    color: #fff;
+  }
 }

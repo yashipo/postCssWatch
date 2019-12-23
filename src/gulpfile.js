@@ -12,12 +12,12 @@ var AUTOPREFIXER_BROWSERS = [
 ];
 
 var src = {
-  'css': ['src/css/**/*.css', '!src/css/**/_*.css'],
-  'cssWatch': 'src/css/**/*.css'
+  'css': ['./css/**/*.css', '!./css/**/_*.css'],
+  'cssWatch': './css/**/*.css'
 }
 
 var dest = {
-  'css': './dest/css/'
+  'css': '../dest/css/'
 }
 
 gulp.task('css', function() {

@@ -1,13 +1,13 @@
 {
-  "name": "gulp-postcss-test",
+  "name": "gulp-postcss",
   "version": "1.0.0",
-  "description": "Gulpを使用したcssnextの導入テストです。",
+  "description": "Gulpを使用したpostcss",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "Manabu Yasuda",
+  "author": "yashipo",
   "license": "MIT",
   "devDependencies": {
     "gulp": "^3.9.1",

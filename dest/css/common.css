@@ -1,0 +1,30 @@
+html {
+  font-size: 14px;
+}
+
+.foo {
+  max-width: 960px;
+  color: #000;
+  font-size: 1rem;
+}
+
+.bar:hover,
+.bar:active,
+.bar:focus {
+  text-decoration: none;
+}
+
+@media screen and (min-width: 768px) {
+  .baz {
+  }
+
+  .baz::after {
+    content: "";
+    display: block;
+    clear: both;
+  }
+}
+
+.test {
+  display: block;
+}
